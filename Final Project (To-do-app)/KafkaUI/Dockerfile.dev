@@ -1,0 +1,6 @@
+# This is not needed, as we use the provectuslabs/kafka-ui image directly in docker-compose.yml
+# Including for reference if customization is needed in the future
+
+FROM provectuslabs/kafka-ui
+
+# Any custom configurations can be added here

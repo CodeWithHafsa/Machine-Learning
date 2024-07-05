@@ -1,0 +1,13 @@
+_format_version: "2.1"
+_transform: true
+
+services:
+  - name: todo-service
+    url: http://fastapi_service:8000
+    routes:
+      - name: todo-route
+        paths:
+          - /
+
+# Command to run this file 
+# docker-compose exec kong kong config db_import /path/to/compose.yml

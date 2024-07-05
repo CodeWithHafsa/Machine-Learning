@@ -1,0 +1,7 @@
+fastapi
+sqlmodel
+psycopg2
+uvicorn
+pydantic
+starlette
+kafka-python
